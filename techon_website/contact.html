@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Techon Website</title>
+  </head>
+  <body>
+    <header>
+      <h1>Contat Us</h1>
+      <nav>
+        <ul>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./schedule.html">Schedule</a></li>
+          <li><a href="./register.html">Register</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <a href="mailto:shalombadeg8@gmail.com">Email Us</a>
+      <a href="https://telegram.com">Telegram</a>
+      <a href="https://instagram.com">Instagram</a>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15764.411676927037!2d38.684433850000005!3d8.962663599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b819139077b9f%3A0xb046d4c28d8c96a0!2sJemo%203!5e0!3m2!1sam!2set!4v1726319510526!5m2!1sam!2set"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <form
+        style="display: flex; flex-direction: column"
+        action="/register"
+        method="post"
+      >
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Full Name" />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+        <label for="message">Message:</label>
+        <textarea name="message" id="message"></textarea>
+        <button type="submit">Sumbit</button>
+      </form>
+    </main>
+    <footer>
+      <p>&copy; 2024 TechCon. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
